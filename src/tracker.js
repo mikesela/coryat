@@ -96,6 +96,15 @@ const JeopardyScoreTracker = () => {
           margin: 0 5px;
           background-color: lightcoral;
         }
+
+        @media screen and (max-width: 768px) {
+          .content {
+            flex-direction: column;
+          }
+          .column {
+            margin-top: 20px;
+          }
+        }
       `}</style>
     </div>
   );
